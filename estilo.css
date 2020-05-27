@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-image: url("foto1.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input {
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    outline: none;
+    /*cursor: pointer;*/
+
+}
+
+div#corpo-form {
+   /* text-align: center;
+    padding: 20px;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+div#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color:#FF0066;
+    border: none;
+    cursor: pointer;
+   
+    
+    
+   
+
+
+}
